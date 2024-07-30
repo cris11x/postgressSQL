@@ -6,8 +6,6 @@
 <hr>
 
 Diseño, diagrama entidad-relación, triggers, procedimientos, funciones, CTE recursivos, plpgsql y mucho más.
-<b>Profesor</b>: Fernando Herrera.
-
  - Proyectos.
  - Documentos.
  - Fundamentos.
