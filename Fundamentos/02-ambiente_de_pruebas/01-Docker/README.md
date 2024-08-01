@@ -1,4 +1,3 @@
-
 <p  align="center">
 <img  src="https://www.postgresql.org/media/img/about/press/elephant.png"  width="40px">
 <img  src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png"  width="200px">
@@ -7,6 +6,7 @@ Instalación y configuración en DOCKER <b>(RECOMENDADA)</b>
 </p>
 
 ### Instalaciones necesarias
+
 1. Docker Desktop : https://www.docker.com/products/docker-desktop/
 2. Descargar Imagenes de docker.
 ```
@@ -23,8 +23,7 @@ docker compose up -d
 ```
 Ejecutado el comando debe estar corriendo ambas imagenes.
 
-
-5. En el caso de cambiar el puerto de postgres o de pgadmin, se debe editar el puerto en el archivo de configuración  "01-Docker/sql/**docker-compose.yml**" bajar ambos contenedores con el comando:
+5. En el caso de cambiar el puerto de postgres o de pgadmin, se debe editar el puerto en el archivo de configuración "01-Docker/sql/**docker-compose.yml**" bajar ambos contenedores con el comando:
 ```
 docker compose down
 ```
@@ -32,11 +31,7 @@ despues volver al levantar el contenedor con el comando:
 ```
 docker compose up -d
 ```
-### Instalacion y configuración con TablePlus
-1. Descargar TablePlus : https://tableplus.com/download.
-2. Instalar <b>TablePlus</b>.
-3. Verificar en Docker que los contenedores del postgres se ejecuten correctamente.
-4. Ejecutar TablePlus.
-- Agregar nueva conexión.
-- Seleccionar base de datos <b>postgress</b>.
-- Configurar la nueva conexión segun el host, puerto, usuario y contraseña de base de datos configurados anteriormente en el contenedor de docker.
+### Gestores de base de datos
+
+1. TablePlus <b>(RECOMENDADO)</b>: https://tableplus.com/download.
+2. pgAdmin: https://www.pgadmin.org/download/
