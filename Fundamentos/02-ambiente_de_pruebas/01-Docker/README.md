@@ -1,11 +1,21 @@
 <p  align="center">
 <img  src="https://www.postgresql.org/media/img/about/press/elephant.png"  width="40px">
-<img  src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png"  width="200px">
 <br>
-Instalación y configuración en DOCKER <b>(RECOMENDADA)</b>
+<b>Ambientes de instalación y configuración de postgres</b>
 </p>
 
-### Instalaciones necesarias
+ - Docker <b>(Recomendada)</b>
+ - Servicio en la nube - *Neon server*.
+ - Local <b>(No recomendada)</b>.
+
+<hr>
+<p  align="left">
+<img  src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png"  width="200px">
+<br>
+<b>Instalación y configuración en DOCKER (RECOMENDADA)</b>
+</p>
+
+
 
 1. Docker Desktop : https://www.docker.com/products/docker-desktop/
 2. Descargar Imagenes de docker.
@@ -31,7 +41,3 @@ despues volver al levantar el contenedor con el comando:
 ```
 docker compose up -d
 ```
-### Gestores de base de datos
-
-1. TablePlus <b>(RECOMENDADO)</b>: https://tableplus.com/download.
-2. pgAdmin: https://www.pgadmin.org/download/
