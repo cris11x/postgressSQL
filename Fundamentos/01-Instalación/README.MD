@@ -23,7 +23,7 @@ docker pull dpage/pgadmin4
 ```
 3. Configuración para levantar ambos contenedores instalados.
 
-**Ubicación del archivo:** "01-Docker/sql/**docker-compose.yml**"
+**Ubicación del archivo:** "01-Docker/**docker-compose.yml**"
 
 4. En la terminal ubicarnos en la carpeta donde esta el archivo <b>"docker-compose.yml"</b> y escribir el siguiente comando.
 ```
@@ -31,7 +31,7 @@ docker compose up -d
 ```
 Ejecutado el comando debe estar corriendo ambas imagenes.
 
-5. En el caso de cambiar el puerto de postgres o de pgadmin, se debe editar el puerto en el archivo de configuración "01-Docker/sql/**docker-compose.yml**" bajar ambos contenedores con el comando:
+5. En el caso de cambiar el puerto de postgres o de pgadmin, se debe editar el puerto en el archivo de configuración "01-Docker/**docker-compose.yml**" bajar ambos contenedores con el comando:
 ```
 docker compose down
 ```
