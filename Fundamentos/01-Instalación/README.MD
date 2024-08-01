@@ -61,3 +61,14 @@ postgresql://prueba_owner:riBGkFbL4Kn1@ep-bold-cloud-a5jjkmqk.us-east-2.aws.neon
 <br>
 <b>Instalación fisica en equipo (NO RECOMENDADO)</b>
 </p>
+Link de descarga:  https://www.postgresql.org/download/
+<hr>
+
+<p  align="center">
+<img  src="https://www.postgresql.org/media/img/about/press/elephant.png"  width="40px">
+<br>
+<b>Gestores de bases de datos</b>
+</p>
+
+ - **pgAdmin**: https://www.pgadmin.org/download/
+ - **TablePlus**: https://tableplus.com/download
