@@ -1,3 +1,4 @@
+
 <p align="center">
 <img src="https://www.postgresql.org/media/img/about/press/elephant.png" width="40px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png" width="200px">
@@ -15,8 +16,8 @@ docker pull dpage/pgadmin4
 ```
 3. Configuración para levantar ambos contenedores instalados.
 **Ubicación del archivo:** "01-Docker/sql/**docker-compose.yml**"
-
+4. En la terminal ubicarnos en la carpeta donde esta el archivo <b>"docker-compose.yml"</b> y escribir el siguiente comando.
  ```
-docker pull postgres:15.3
-docker pull dpage/pgadmin4
+docker compose up -d
 ```
+Ejecutado el comando debe estar corriendo ambas imagenes.
