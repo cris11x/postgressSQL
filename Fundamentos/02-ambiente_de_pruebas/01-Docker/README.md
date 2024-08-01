@@ -5,4 +5,18 @@
 Instalación y configuración en DOCKER <b>(RECOMENDADA)</b>
 </p>
 
+### Instalaciones necesarias
 
+ 1. Docker Desktop : https://www.docker.com/products/docker-desktop/
+ 2. Descargar Imagenes de docker.
+ ```
+docker pull postgres:15.3
+docker pull dpage/pgadmin4
+```
+3. Configuración para levantar ambos contenedores instalados.
+**Ubicación del archivo:** "01-Docker/sql/**docker-compose.yml**"
+
+ ```
+docker pull postgres:15.3
+docker pull dpage/pgadmin4
+```
