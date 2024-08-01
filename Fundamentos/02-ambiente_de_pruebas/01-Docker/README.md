@@ -8,6 +8,7 @@
  - Servicio en la nube - *Neon server*.
  - Local <b>(No recomendada)</b>.
 
+<hr>
 <p  align="left">
 <img  src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png"  width="200px">
 <br>
