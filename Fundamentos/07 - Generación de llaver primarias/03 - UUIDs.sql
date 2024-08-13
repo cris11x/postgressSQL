@@ -10,6 +10,9 @@ CREATE TABLE Students (
 -- Instalando extension adicional para UUID.
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
+--Listar extensiones.
+SELECT * FROM pg_extension;
+
 -- Eliminado extension.
 DROP EXTENSION "uuid-ossp";
 
